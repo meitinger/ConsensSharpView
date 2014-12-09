@@ -5,8 +5,8 @@ Consens SharpView
 Description
 -----------
 This utility provides an alternative to Consens WebView that runs locally and
-doesn't require Java. In addition it has the option to store the password which
-allows auto-logon.
+doesn't require Java. In addition, it adds the option to (securely) store the
+user name and password, which enabled auto-logon.
 
 Build
 -----
@@ -28,9 +28,9 @@ Finally, build the project with Visual Studio or msbuild just as usual.
 Usage
 -----
 The program takes three parameters: The first one is the base URL of ZcWebView,
-which usually simply is `http://<server>:<port>/`. The second parameter allows
-to set or override the user name, the third to additionally provide a password,
-which is not recommended. Usually, only the first parameter should be supplied.
+which simply is `http://<server>:<port>/`. The second parameter allows to set
+or override the user name, the third to additionally provide a password, which
+is not recommended. Usually, only the first parameter should be supplied.
 
 If a user has stored his or her password and wants to logon with a different
 name, the program can be started while holding the `SHIFT` key, which brings
